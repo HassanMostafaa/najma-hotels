@@ -126,7 +126,7 @@ export default function Home() {
                     ))}
                   </ul>
                   <Link
-                    href="/rooms"
+                    href="/contact"
                     className="inline-block w-full text-center rounded-full bg-amber-500 px-6 py-3 text-black font-semibold"
                   >
                     Book Now
@@ -190,7 +190,7 @@ export default function Home() {
                   </ul>
                   <div className="mt-8">
                     <Link
-                      href={`/services#${service.title.toLowerCase().replace(" ", "-")}`}
+                      href={`/services`}
                       className="inline-flex items-center text-amber-400"
                     >
                       Learn more

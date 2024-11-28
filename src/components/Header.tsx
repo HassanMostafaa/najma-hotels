@@ -84,7 +84,7 @@ export default function Header() {
               </motion.div>
             ))}
             <Link
-              href="/booking"
+              href="/contact"
               className="rounded-full bg-amber-500 px-6 py-2.5 text-black text-sm font-semibold hover:bg-amber-400 transition-colors"
             >
               Book Now
@@ -132,7 +132,7 @@ export default function Header() {
               </motion.div>
             ))}
             <Link
-              href="/booking"
+              href="/contact"
               className="block mt-4 text-center rounded-full bg-amber-500 px-6 py-2.5 text-black text-sm font-semibold hover:bg-amber-400 transition-colors"
               onClick={() => setIsOpen(false)}
             >
